@@ -16,12 +16,17 @@
 + (DataManager *)sharedInstance;
 
 
-- (Trip *)createTrip:(NSDate *)startTime andEndTime:(NSDate *)endTime andDistance:(NSNumber *)distance andDescrip:(NSString *)description;
+- (Trip *)createTrip:(NSDate *)startTime andEndTime:(NSDate *)endTime andDistance:(NSNumber *)distance andDescrip:(NSString *)description andMalfunction:(NSSet *)malfunctions;
 
-- (Trip *)editTrip;
+- (Malfunction *)createMalfunction:(NSDate *)time andSymptoms:(NSString *)symptoms andTrips:(NSSet *)trips;
+
+- (void)edit;
+- (void)deleteObject:(NSManagedObject*)object;
 
 - (NSArray *)fetchAllTrips;
+- (NSArray *)fetchAllMalfunction;
 
-- (void)DeleteTrip:(Trip*)trip;
+
+
 
 @end

@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "Trip+CoreDataProperties.h"
+#import "Malfunction+CoreDataProperties.h"
 
 
 @interface DataManager()
@@ -40,7 +41,7 @@
     return sharedInstance;
 }
 
-- (Trip *)createTrip:(NSDate *)startTime andEndTime:(NSDate *)endTime andDistance:(NSNumber *)distance andDescrip:(NSString *)description
+- (Trip *)createTrip:(NSDate *)startTime andEndTime:(NSDate *)endTime andDistance:(NSNumber *)distance andDescrip:(NSString *)description andMalfunction:(NSSet *)malfunctions;
 {
     Trip *trip = [NSEntityDescription
                                        insertNewObjectForEntityForName:@"Trip"
@@ -49,6 +50,7 @@
     trip.endTime = endTime;
     trip.tripDescription = description;
     trip.distance = distance;
+    trip.malfunctions = malfunctions;
     
     NSError *error;
     if (![self.moc save:&error]) {
@@ -61,11 +63,43 @@
     return nil;
 }
 
-- (void)editTrip:(Trip *)trip
+- (Malfunction *)createMalfunction:(NSDate *)time andSymptoms:(NSString *)symptoms andTrips:(NSSet *)trips
 {
+    Malfunction *malfunction = [NSEntityDescription
+                  insertNewObjectForEntityForName:@"Malfunction"
+                  inManagedObjectContext:self.moc];
+    malfunction.time = time;
+    malfunction.symptoms = symptoms;
     
+    [malfunction addTrips:trips];
+    
+    NSError *error;
+    if (![self.moc save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
+    else
+    {
+        return malfunction;
+    }
+    return nil;
 }
 
+- (void)edit;
+{
+    NSError *error;
+    if (![self.moc save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
+}
+
+- (void)deleteObject:(NSManagedObject*)object
+{
+    [self.moc deleteObject:object];
+    NSError *error;
+    if (![self.moc save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
+}
 - (NSArray *)fetchAllTrips
 {
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
@@ -78,8 +112,15 @@
     return fetchedObjects;
 }
 
-- (void)DeleteTrip:(Trip*)trip
+- (NSArray *)fetchAllMalfunction
 {
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription
+                                   entityForName:@"Malfunction" inManagedObjectContext:self.moc];
+    [fetchRequest setEntity:entity];
+    NSError *error;
+    NSArray *fetchedObjects = [self.moc executeFetchRequest:fetchRequest error:&error];
     
+    return fetchedObjects;
 }
 @end

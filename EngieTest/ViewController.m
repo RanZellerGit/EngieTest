@@ -26,14 +26,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)createNewTrip:(id)sender
-{
-    [[DataManager sharedInstance] createTrip:[NSDate date] andEndTime:[NSDate date] andDistance:@(100) andDescrip:@"try"];
-    
-}
-
-- (IBAction)fatch:(id)sender {
-    NSArray *trips = [[DataManager sharedInstance] fetchAllTrips];
-}
 
 @end

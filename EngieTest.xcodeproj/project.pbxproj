@@ -19,9 +19,13 @@
 		0C0D3A381BB55A2F00A214AC /* Malfunction+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A331BB55A2F00A214AC /* Malfunction+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		0C0D3A391BB55A2F00A214AC /* Malfunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A351BB55A2F00A214AC /* Malfunction.m */; settings = {ASSET_TAGS = (); }; };
 		0C0D3A661BB55F2800A214AC /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A651BB55F2800A214AC /* DataManager.m */; settings = {ASSET_TAGS = (); }; };
-		0C606C541BB5825000BCDBA1 /* tripCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C606C531BB5825000BCDBA1 /* tripCellTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		0C71B7441BB5701500640FA6 /* tripsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71B7431BB5701500640FA6 /* tripsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		0C71B7511BB57BF900640FA6 /* CrateTripFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71B7501BB57BF900640FA6 /* CrateTripFormViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0C1D68841BB5D1E1006046A9 /* MalfunctionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D68831BB5D1E1006046A9 /* MalfunctionTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0C1D68871BB5DF76006046A9 /* MalfunctionConnectToTripTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D68861BB5DF76006046A9 /* MalfunctionConnectToTripTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0C1D688A1BB5E340006046A9 /* TripsConnectToMalfunctionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D68891BB5E340006046A9 /* TripsConnectToMalfunctionTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0C606C541BB5825000BCDBA1 /* EventCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C606C531BB5825000BCDBA1 /* EventCellTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		0C606C571BB5970800BCDBA1 /* AncestorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C606C561BB5970800BCDBA1 /* AncestorTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0C71B7441BB5701500640FA6 /* TripsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71B7431BB5701500640FA6 /* TripsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0C71B7511BB57BF900640FA6 /* CreateFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71B7501BB57BF900640FA6 /* CreateFormViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,12 +50,20 @@
 		0C0D3A351BB55A2F00A214AC /* Malfunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Malfunction.m; path = ../Malfunction.m; sourceTree = "<group>"; };
 		0C0D3A641BB55F2800A214AC /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = ../DataManager.h; sourceTree = "<group>"; };
 		0C0D3A651BB55F2800A214AC /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = ../DataManager.m; sourceTree = "<group>"; };
-		0C606C521BB5825000BCDBA1 /* tripCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tripCellTableViewCell.h; sourceTree = "<group>"; };
-		0C606C531BB5825000BCDBA1 /* tripCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tripCellTableViewCell.m; sourceTree = "<group>"; };
-		0C71B7421BB5701500640FA6 /* tripsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tripsTableViewController.h; sourceTree = "<group>"; };
-		0C71B7431BB5701500640FA6 /* tripsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tripsTableViewController.m; sourceTree = "<group>"; };
-		0C71B74F1BB57BF900640FA6 /* CrateTripFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrateTripFormViewController.h; sourceTree = "<group>"; };
-		0C71B7501BB57BF900640FA6 /* CrateTripFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrateTripFormViewController.m; sourceTree = "<group>"; };
+		0C1D68821BB5D1E1006046A9 /* MalfunctionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MalfunctionTableViewController.h; sourceTree = "<group>"; };
+		0C1D68831BB5D1E1006046A9 /* MalfunctionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MalfunctionTableViewController.m; sourceTree = "<group>"; };
+		0C1D68851BB5DF76006046A9 /* MalfunctionConnectToTripTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MalfunctionConnectToTripTableViewController.h; sourceTree = "<group>"; };
+		0C1D68861BB5DF76006046A9 /* MalfunctionConnectToTripTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MalfunctionConnectToTripTableViewController.m; sourceTree = "<group>"; };
+		0C1D68881BB5E340006046A9 /* TripsConnectToMalfunctionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripsConnectToMalfunctionTableViewController.h; sourceTree = "<group>"; };
+		0C1D68891BB5E340006046A9 /* TripsConnectToMalfunctionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripsConnectToMalfunctionTableViewController.m; sourceTree = "<group>"; };
+		0C606C521BB5825000BCDBA1 /* EventCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCellTableViewCell.h; sourceTree = "<group>"; };
+		0C606C531BB5825000BCDBA1 /* EventCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCellTableViewCell.m; sourceTree = "<group>"; };
+		0C606C551BB5970800BCDBA1 /* AncestorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AncestorTableViewController.h; sourceTree = "<group>"; };
+		0C606C561BB5970800BCDBA1 /* AncestorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AncestorTableViewController.m; sourceTree = "<group>"; };
+		0C71B7421BB5701500640FA6 /* TripsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripsTableViewController.h; sourceTree = "<group>"; };
+		0C71B7431BB5701500640FA6 /* TripsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripsTableViewController.m; sourceTree = "<group>"; };
+		0C71B74F1BB57BF900640FA6 /* CreateFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFormViewController.h; sourceTree = "<group>"; };
+		0C71B7501BB57BF900640FA6 /* CreateFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateFormViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,12 +103,20 @@
 				0C0D3A1A1BB541DB00A214AC /* ViewController.h */,
 				0C0D3A1B1BB541DB00A214AC /* ViewController.m */,
 				0C0D3A1D1BB541DB00A214AC /* Main.storyboard */,
-				0C71B74F1BB57BF900640FA6 /* CrateTripFormViewController.h */,
-				0C71B7501BB57BF900640FA6 /* CrateTripFormViewController.m */,
-				0C71B7421BB5701500640FA6 /* tripsTableViewController.h */,
-				0C71B7431BB5701500640FA6 /* tripsTableViewController.m */,
-				0C606C521BB5825000BCDBA1 /* tripCellTableViewCell.h */,
-				0C606C531BB5825000BCDBA1 /* tripCellTableViewCell.m */,
+				0C71B74F1BB57BF900640FA6 /* CreateFormViewController.h */,
+				0C71B7501BB57BF900640FA6 /* CreateFormViewController.m */,
+				0C606C521BB5825000BCDBA1 /* EventCellTableViewCell.h */,
+				0C606C531BB5825000BCDBA1 /* EventCellTableViewCell.m */,
+				0C606C551BB5970800BCDBA1 /* AncestorTableViewController.h */,
+				0C606C561BB5970800BCDBA1 /* AncestorTableViewController.m */,
+				0C71B7421BB5701500640FA6 /* TripsTableViewController.h */,
+				0C71B7431BB5701500640FA6 /* TripsTableViewController.m */,
+				0C1D68821BB5D1E1006046A9 /* MalfunctionTableViewController.h */,
+				0C1D68831BB5D1E1006046A9 /* MalfunctionTableViewController.m */,
+				0C1D68851BB5DF76006046A9 /* MalfunctionConnectToTripTableViewController.h */,
+				0C1D68861BB5DF76006046A9 /* MalfunctionConnectToTripTableViewController.m */,
+				0C1D68881BB5E340006046A9 /* TripsConnectToMalfunctionTableViewController.h */,
+				0C1D68891BB5E340006046A9 /* TripsConnectToMalfunctionTableViewController.m */,
 				0C0D3A201BB541DB00A214AC /* Assets.xcassets */,
 				0C0D3A221BB541DB00A214AC /* LaunchScreen.storyboard */,
 				0C0D3A251BB541DB00A214AC /* Info.plist */,
@@ -208,18 +228,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C606C541BB5825000BCDBA1 /* tripCellTableViewCell.m in Sources */,
+				0C606C541BB5825000BCDBA1 /* EventCellTableViewCell.m in Sources */,
 				0C0D3A391BB55A2F00A214AC /* Malfunction.m in Sources */,
 				0C0D3A1C1BB541DB00A214AC /* ViewController.m in Sources */,
 				0C0D3A191BB541DB00A214AC /* AppDelegate.m in Sources */,
+				0C606C571BB5970800BCDBA1 /* AncestorTableViewController.m in Sources */,
+				0C1D68841BB5D1E1006046A9 /* MalfunctionTableViewController.m in Sources */,
 				0C0D3A371BB55A2F00A214AC /* Trip.m in Sources */,
-				0C71B7441BB5701500640FA6 /* tripsTableViewController.m in Sources */,
+				0C71B7441BB5701500640FA6 /* TripsTableViewController.m in Sources */,
+				0C1D68871BB5DF76006046A9 /* MalfunctionConnectToTripTableViewController.m in Sources */,
 				0C0D3A381BB55A2F00A214AC /* Malfunction+CoreDataProperties.m in Sources */,
 				0C0D3A361BB55A2F00A214AC /* Trip+CoreDataProperties.m in Sources */,
-				0C71B7511BB57BF900640FA6 /* CrateTripFormViewController.m in Sources */,
+				0C71B7511BB57BF900640FA6 /* CreateFormViewController.m in Sources */,
 				0C0D3A161BB541DB00A214AC /* main.m in Sources */,
 				0C0D3A661BB55F2800A214AC /* DataManager.m in Sources */,
 				0C0D3A2D1BB555DB00A214AC /* EngieTest.xcdatamodeld in Sources */,
+				0C1D688A1BB5E340006046A9 /* TripsConnectToMalfunctionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
