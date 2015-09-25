@@ -13,6 +13,15 @@
 		0C0D3A1F1BB541DB00A214AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0D3A1D1BB541DB00A214AC /* Main.storyboard */; };
 		0C0D3A211BB541DB00A214AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0D3A201BB541DB00A214AC /* Assets.xcassets */; };
 		0C0D3A241BB541DB00A214AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0D3A221BB541DB00A214AC /* LaunchScreen.storyboard */; };
+		0C0D3A2D1BB555DB00A214AC /* EngieTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A2B1BB555DB00A214AC /* EngieTest.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		0C0D3A361BB55A2F00A214AC /* Trip+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A2F1BB55A2F00A214AC /* Trip+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		0C0D3A371BB55A2F00A214AC /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A311BB55A2F00A214AC /* Trip.m */; settings = {ASSET_TAGS = (); }; };
+		0C0D3A381BB55A2F00A214AC /* Malfunction+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A331BB55A2F00A214AC /* Malfunction+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		0C0D3A391BB55A2F00A214AC /* Malfunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A351BB55A2F00A214AC /* Malfunction.m */; settings = {ASSET_TAGS = (); }; };
+		0C0D3A661BB55F2800A214AC /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D3A651BB55F2800A214AC /* DataManager.m */; settings = {ASSET_TAGS = (); }; };
+		0C606C541BB5825000BCDBA1 /* tripCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C606C531BB5825000BCDBA1 /* tripCellTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		0C71B7441BB5701500640FA6 /* tripsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71B7431BB5701500640FA6 /* tripsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0C71B7511BB57BF900640FA6 /* CrateTripFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71B7501BB57BF900640FA6 /* CrateTripFormViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,23 @@
 		0C0D3A201BB541DB00A214AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0D3A231BB541DB00A214AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0D3A251BB541DB00A214AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0D3A2C1BB555DB00A214AC /* EngieTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EngieTest.xcdatamodel; sourceTree = "<group>"; };
+		0C0D3A2E1BB55A2F00A214AC /* Trip+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Trip+CoreDataProperties.h"; path = "../Trip+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0C0D3A2F1BB55A2F00A214AC /* Trip+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Trip+CoreDataProperties.m"; path = "../Trip+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0C0D3A301BB55A2F00A214AC /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trip.h; path = ../Trip.h; sourceTree = "<group>"; };
+		0C0D3A311BB55A2F00A214AC /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trip.m; path = ../Trip.m; sourceTree = "<group>"; };
+		0C0D3A321BB55A2F00A214AC /* Malfunction+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Malfunction+CoreDataProperties.h"; path = "../Malfunction+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0C0D3A331BB55A2F00A214AC /* Malfunction+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Malfunction+CoreDataProperties.m"; path = "../Malfunction+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0C0D3A341BB55A2F00A214AC /* Malfunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Malfunction.h; path = ../Malfunction.h; sourceTree = "<group>"; };
+		0C0D3A351BB55A2F00A214AC /* Malfunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Malfunction.m; path = ../Malfunction.m; sourceTree = "<group>"; };
+		0C0D3A641BB55F2800A214AC /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = ../DataManager.h; sourceTree = "<group>"; };
+		0C0D3A651BB55F2800A214AC /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = ../DataManager.m; sourceTree = "<group>"; };
+		0C606C521BB5825000BCDBA1 /* tripCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tripCellTableViewCell.h; sourceTree = "<group>"; };
+		0C606C531BB5825000BCDBA1 /* tripCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tripCellTableViewCell.m; sourceTree = "<group>"; };
+		0C71B7421BB5701500640FA6 /* tripsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tripsTableViewController.h; sourceTree = "<group>"; };
+		0C71B7431BB5701500640FA6 /* tripsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tripsTableViewController.m; sourceTree = "<group>"; };
+		0C71B74F1BB57BF900640FA6 /* CrateTripFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrateTripFormViewController.h; sourceTree = "<group>"; };
+		0C71B7501BB57BF900640FA6 /* CrateTripFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrateTripFormViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +84,23 @@
 		0C0D3A131BB541DB00A214AC /* EngieTest */ = {
 			isa = PBXGroup;
 			children = (
+				0C0D3A3A1BB55A4200A214AC /* core data */,
+				0C0D3A2B1BB555DB00A214AC /* EngieTest.xcdatamodeld */,
 				0C0D3A171BB541DB00A214AC /* AppDelegate.h */,
 				0C0D3A181BB541DB00A214AC /* AppDelegate.m */,
 				0C0D3A1A1BB541DB00A214AC /* ViewController.h */,
 				0C0D3A1B1BB541DB00A214AC /* ViewController.m */,
 				0C0D3A1D1BB541DB00A214AC /* Main.storyboard */,
+				0C71B74F1BB57BF900640FA6 /* CrateTripFormViewController.h */,
+				0C71B7501BB57BF900640FA6 /* CrateTripFormViewController.m */,
+				0C71B7421BB5701500640FA6 /* tripsTableViewController.h */,
+				0C71B7431BB5701500640FA6 /* tripsTableViewController.m */,
+				0C606C521BB5825000BCDBA1 /* tripCellTableViewCell.h */,
+				0C606C531BB5825000BCDBA1 /* tripCellTableViewCell.m */,
 				0C0D3A201BB541DB00A214AC /* Assets.xcassets */,
 				0C0D3A221BB541DB00A214AC /* LaunchScreen.storyboard */,
 				0C0D3A251BB541DB00A214AC /* Info.plist */,
+				0C71B74B1BB578CE00640FA6 /* trips */,
 				0C0D3A141BB541DB00A214AC /* Supporting Files */,
 			);
 			path = EngieTest;
@@ -77,6 +112,30 @@
 				0C0D3A151BB541DB00A214AC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C0D3A3A1BB55A4200A214AC /* core data */ = {
+			isa = PBXGroup;
+			children = (
+				0C0D3A2E1BB55A2F00A214AC /* Trip+CoreDataProperties.h */,
+				0C0D3A2F1BB55A2F00A214AC /* Trip+CoreDataProperties.m */,
+				0C0D3A301BB55A2F00A214AC /* Trip.h */,
+				0C0D3A311BB55A2F00A214AC /* Trip.m */,
+				0C0D3A321BB55A2F00A214AC /* Malfunction+CoreDataProperties.h */,
+				0C0D3A331BB55A2F00A214AC /* Malfunction+CoreDataProperties.m */,
+				0C0D3A341BB55A2F00A214AC /* Malfunction.h */,
+				0C0D3A351BB55A2F00A214AC /* Malfunction.m */,
+				0C0D3A641BB55F2800A214AC /* DataManager.h */,
+				0C0D3A651BB55F2800A214AC /* DataManager.m */,
+			);
+			name = "core data";
+			sourceTree = "<group>";
+		};
+		0C71B74B1BB578CE00640FA6 /* trips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = trips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +208,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C606C541BB5825000BCDBA1 /* tripCellTableViewCell.m in Sources */,
+				0C0D3A391BB55A2F00A214AC /* Malfunction.m in Sources */,
 				0C0D3A1C1BB541DB00A214AC /* ViewController.m in Sources */,
 				0C0D3A191BB541DB00A214AC /* AppDelegate.m in Sources */,
+				0C0D3A371BB55A2F00A214AC /* Trip.m in Sources */,
+				0C71B7441BB5701500640FA6 /* tripsTableViewController.m in Sources */,
+				0C0D3A381BB55A2F00A214AC /* Malfunction+CoreDataProperties.m in Sources */,
+				0C0D3A361BB55A2F00A214AC /* Trip+CoreDataProperties.m in Sources */,
+				0C71B7511BB57BF900640FA6 /* CrateTripFormViewController.m in Sources */,
 				0C0D3A161BB541DB00A214AC /* main.m in Sources */,
+				0C0D3A661BB55F2800A214AC /* DataManager.m in Sources */,
+				0C0D3A2D1BB555DB00A214AC /* EngieTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +368,23 @@
 				0C0D3A2A1BB541DB00A214AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0C0D3A2B1BB555DB00A214AC /* EngieTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0C0D3A2C1BB555DB00A214AC /* EngieTest.xcdatamodel */,
+			);
+			currentVersion = 0C0D3A2C1BB555DB00A214AC /* EngieTest.xcdatamodel */;
+			name = EngieTest.xcdatamodeld;
+			path = ../EngieTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0C0D3A091BB541DB00A214AC /* Project object */;
 }

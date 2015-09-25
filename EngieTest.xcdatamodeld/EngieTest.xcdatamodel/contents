@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="Malfunction" representedClassName="Malfunction" syncable="YES">
+        <attribute name="symptoms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="trips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="malfunctions" inverseEntity="Trip" syncable="YES"/>
+    </entity>
+    <entity name="Trip" representedClassName="Trip" syncable="YES">
+        <attribute name="distance" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="tripDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="malfunctions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Malfunction" inverseName="trips" inverseEntity="Malfunction" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Malfunction" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Trip" positionX="189" positionY="44" width="128" height="118"/>
+    </elements>
+</model>
